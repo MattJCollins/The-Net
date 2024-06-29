@@ -15,10 +15,10 @@ about.addEventListener('click', () => {
     left: 50,
     mount: aboutContent,
     onfocus: function () {
-      this.setBackground('#00aa00')
+      this.setBackground('#888888')
     },
     onblur: function () {
-      this.setBackground('#777')
+      this.setBackground('#111111')
     },
   })
 })
@@ -28,16 +28,16 @@ contact.addEventListener('click', () => {
     title: 'Contact Me',
     width: '400px',
     height: '400px',
-    top: 150,
-    right: 50,
+    top: 80,
+    right: 80,
     bottom: 50,
-    left: 250,
+    left: 40,
     mount: contactContent,
     onfocus: function () {
-      this.setBackground('#00aa00')
+      this.setBackground('#888888')
     },
     onblur: function () {
-      this.setBackground('#777')
+      this.setBackground('#111111')
     },
   })
 })
