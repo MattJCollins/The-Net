@@ -1,1 +1,1 @@
-# Terminal Style Personal Website
+# Personal Website
