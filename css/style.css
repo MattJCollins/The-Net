@@ -90,6 +90,7 @@ nav ul li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center; /* centers items horizontally */
+  align-items: center;
 }
 
 .row::after {
