@@ -82,7 +82,6 @@ nav ul li {
 
 .cursor {
   font-weight: 700;
-  animation: 1s blink step-end infinite;
 }
 
 @keyframes blink {
