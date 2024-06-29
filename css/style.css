@@ -13,7 +13,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: #FFFFFF;
-  color: #ccc;
+  color: #888888;
   font-size: 18px;
   line-height: 1.6;
 }
@@ -72,7 +72,7 @@ nav ul li {
 }
 
 .wb-body {
-  background: #111;
+  background: #111111;
   padding: 20px;
 }
 
@@ -97,12 +97,6 @@ nav ul li {
   clear: both;
   display: table;
 }
-
-@keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
 
   50% {
     color: var(--text-color);
