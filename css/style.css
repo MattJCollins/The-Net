@@ -86,10 +86,9 @@ nav ul li {
   padding: 5px;
 }
 
-.grid-container {
-  display: grid;
+.flex-container {
+  display: flex;
   justify-content: center; /* centers items horizontally */
-  align-items: center;
 }
 
 .row::after {
