@@ -88,8 +88,8 @@ nav ul li {
 
 .flex-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-content: center; /* centers items horizontally */
+  place-items: center;
+  /*justify-content: center; */
 }
 
 .row::after {
